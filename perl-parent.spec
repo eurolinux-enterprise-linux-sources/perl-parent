@@ -1,7 +1,7 @@
 Name:		perl-parent
 Epoch:		1
 Version:	0.225
-Release:	243%{?dist}
+Release:	244%{?dist}
 Summary:	Establish an ISA relationship with base classes at compile time
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -55,6 +55,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/parent.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.225-244
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.225-243
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
